@@ -1,3 +1,4 @@
+# runner.py
+from SOLO import iAmMain   # نستورد الكلاس
 if __name__ == "__main__":
-    from SOLO import iAmMenu()
-    iAmMenu()()
+    iAmMain().iAmMenu()    # ننشئ instance وننادى الميثود
